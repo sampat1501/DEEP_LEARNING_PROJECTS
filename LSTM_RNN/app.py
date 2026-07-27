@@ -5,7 +5,7 @@ import numpy as np
 import streamlit as st
 
 ##Load lstm model
-model = load_model("lstm_hamlet_rnn (2).h5")
+model = load_model("lstm_hamlet_next_word_prediction_rnn.h5")
 ##Load the tokeniser
 with open("tokeniser.pickle", "rb") as file:
     tokeniser = pickle.load(file)
